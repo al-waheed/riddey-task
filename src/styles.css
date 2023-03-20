@@ -1,0 +1,122 @@
+* {
+  font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #999;
+}
+
+.card_icon {
+  text-align: center;
+}
+
+.card_box {
+  background-color: #fff;
+  width: 320px;
+  height: 563px;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_heading h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #3c4043;
+}
+
+.card_heading p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #636669;
+}
+
+.card_features{
+  text-align: left;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.card_features .features{
+  display: flex;
+  align-items: flex-start;
+  justify-items: center;
+}
+
+.card_features .features:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.card_features .features h3 {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3c4043;
+  margin-left: 3px;
+}
+
+.card_features h3 span {
+  font-weight: 100;
+  color: #636669;
+}
+
+.card_progress {
+  text-align: center;
+}
+
+.card_progress h4 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #3c4043;
+}
+
+.card_progress h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #e26559;
+}
+
+.card_btn {
+  background-color: #e26559;
+  color: white;
+  border: none;
+  width: 280px;
+  height: 46px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 20px;
+  font-size: 14px;
+  transition: background-color 200ms;
+  cursor: pointer;
+}
+
+.card_btn:hover {
+  background-color: #b55147;
+}
+
+.card_btn:active {
+  background-color: #883d35;
+}
+
+.card_btn:disabled {
+  opacity: 0.4;
+}
+
+.card_btn:hover:disabled,
+.card_btn:active:disabled {
+  background-color: #d9534f;
+  cursor: not-allowed;
+}
